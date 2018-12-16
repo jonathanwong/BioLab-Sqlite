@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Bio Lab</title>
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+#embed("nav")
+#get(body)
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

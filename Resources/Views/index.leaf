@@ -1,0 +1,20 @@
+#set("body") {    
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">#(title)</h1>
+                <p>Bio Lab is dedicated to providing on time delivery and accurate results for your samples.</p>
+            </div>
+        </div>    
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a class="btn btn-secondary" href="/users/">View Users &#187;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+#embed("master")
+

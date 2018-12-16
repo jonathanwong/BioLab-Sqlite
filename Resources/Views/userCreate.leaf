@@ -1,0 +1,25 @@
+#set("body") {
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form method="post" action="/users">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" class="form-control" id="firstName" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" class="form-control" id="lastName" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="text" name="age" class="form-control" id="age" placeholder="Age">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Create User</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+}
+#embed("master")
